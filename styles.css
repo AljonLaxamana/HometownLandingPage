@@ -1,0 +1,109 @@
+body {
+    padding: 20px;
+    margin: 0;
+    background-color: #3c6697;
+    color: whitesmoke;
+    font-family: 'Hanuman', serif;
+    box-sizing: border-box;
+    font-size: 16;
+    text-shadow: 0px 0px 5px black;
+    min-width: 70vw;
+}
+
+.hero-container {
+    background-image: url("img/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+    height: 60vh;
+    border: 10px solid #094074;
+    border-radius: 20px;
+    background-color: #094074;
+    padding: 100px 100px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.title {
+    color: #FE9000 ;
+    font-size: 3em;
+}
+
+.subtitle {
+    font-family: 'Handlee', cursive;
+    color: #FFDD4A;
+    font-size: 40px;
+}
+
+.intro {
+    text-align: justify;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 10px black;
+}
+
+.activities-container {
+    margin: 20px auto;
+    height: 60vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 10px solid #094074;
+    border-radius: 20px;
+}
+
+.header {
+    position: absolute;
+    height: 7vh;
+    color: #FE9000 ;
+    font-size: 20px;
+}
+
+.activity-1, .activity-2, .activity-3 {
+    margin-top: 100px;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.img-container {
+    height: 50%;
+    border-radius: 20px;
+}
+
+.sacred {
+    background-image: url('img/Sacred\ Relic\ of\ The\ True\ Cross.jpg');
+    background-size: cover;
+}
+
+.isdaan {
+    background-image: url('img/Isdaan\ Village.jpg');
+    background-size: cover;
+}
+
+.falls {
+    background-image: url('img/Canding\ Falls.jpg');
+    background-size: cover;
+}
+
+.info-place {
+    overflow-y: auto;
+    height: 60%;
+}
+
+.info {
+    text-align: justify;
+    text-indent: 10%;
+}
+
+.info-place::-webkit-scrollbar {
+    display: none;
+}
