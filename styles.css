@@ -1,13 +1,14 @@
 body {
     padding: 20px;
-    margin: 0;
+    margin: 0 auto;
     background-color: #3c6697;
     color: whitesmoke;
     font-family: 'Hanuman', serif;
     box-sizing: border-box;
     font-size: 16;
     text-shadow: 0px 0px 5px black;
-    min-width: 70vw;
+    min-width: 800px;
+    max-width: 1100px;
 }
 
 .hero-container {
@@ -19,7 +20,7 @@ body {
     border: 10px solid #094074;
     border-radius: 20px;
     background-color: #094074;
-    padding: 100px 100px 50px;
+    padding: 50px 50px 25px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -46,7 +47,7 @@ body {
 
 .activities-container {
     margin: 20px auto;
-    height: 60vh;
+    height: 80vh;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -66,12 +67,12 @@ body {
     margin-top: 100px;
     width: 40%;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 30px;
 }
 
 .img-container {
@@ -99,11 +100,68 @@ body {
     height: 60%;
 }
 
+.info-container {
+    overflow-y: auto;
+    height: 100%;
+}
+
 .info {
     text-align: justify;
     text-indent: 10%;
+    font-size: 16px;
 }
 
-.info-place::-webkit-scrollbar {
+.info-place::-webkit-scrollbar, .info-container::-webkit-scrollbar  {
     display: none;
 }
+
+.place {
+    font-family: 'Handlee', cursive;
+    color: #FFDD4A;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    height: 30px;
+}
+
+.address {
+    color: #FE9000;
+    font-style: italic;
+    height: 30px;
+    margin-bottom: 40px;
+}
+
+.guide-container {
+    border: 10px solid #094074;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+    height: 30vh;
+    gap: 30px;
+    text-align: center;
+}
+
+.img-avatar {
+    width: 40%;
+    height: 30vh;
+    border-radius: 10px;
+    background-image: url('img/Aljon-Profile.jpg');
+    background-size: cover;
+}
+
+.guide-info-container {
+    width: 60%;
+}
+.guide {
+    font-size: 1.5em;
+    color: #FE9000;
+}
+
+.name {
+    font-family: 'Handlee', cursive;
+    color: #FFDD4A;
+    font-size: 1.5em;
+}
+
+
